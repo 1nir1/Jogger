@@ -1,0 +1,28 @@
+client/joggerclient/node_modules
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+client/joggerclient/.pnp/
+client/joggerclient/.pnp.js
+
+# testing
+client/joggerclient/coverage/
+
+# production
+client/joggerclient/build/
+
+# misc
+client/joggerclient/.DS_Store
+client/joggerclient/.env.local
+client/joggerclient/.env.development.local
+client/joggerclient/.env.test.local
+client/joggerclient/.env.production.local
+
+client/joggerclient/npm-debug.log*
+client/joggerclient/yarn-debug.log*
+client/joggerclient/yarn-error.log*
+
+server/.idea/workspace.xml
+server/.idea/usage.statistics.xml
+server/.idea/tasks.xml
